@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Full Documentation :  [Notion]https://forest-elephant-f34.notion.site/Website-Movie-c0eda7e8fecc4686869ff4c59e28aceb).
+Full Documentation :  [Notion](https://forest-elephant-f34.notion.site/Website-Movie-c0eda7e8fecc4686869ff4c59e28aceb).
 
 ## Available Scripts
 
