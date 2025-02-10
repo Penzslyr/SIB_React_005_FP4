@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   const searchData = useSelector((state) => state.search.search);
-  const API_URL = `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
+  const API_URL = `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
   window.onscroll = () => {
     const header = document.getElementById("navbar");
     const fixedNav = header.offsetTop;

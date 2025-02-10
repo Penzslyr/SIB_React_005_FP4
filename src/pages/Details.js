@@ -24,11 +24,12 @@ const Details = () => {
     setLoading(true);
     axios({
       method: "GET",
-      url: `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API_KEY}&i=${id}`,
+      url: `https://www.omdbapi.com/?apikey=${process.env.REACT_APP_OMDB_API_KEY}&i=${id}`,
     })
       .then((res) => {
         setData(res.data);
       })
+
       .catch((e) => console.log(e))
       .finally(() => setLoading(false));
   }, [id]);
